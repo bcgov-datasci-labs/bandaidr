@@ -19,6 +19,7 @@ If you have bcgovr installed and you use RStudio, click the 'Insert BCDevex Badg
 # bandaidr
 
 Description of package
+_Initiated: Nov. 8, 2019 at the BC gov R-hackathon in Prince George_ 
 
 ### Features
 
@@ -32,6 +33,8 @@ Description of package
 
 
 ### Installation
+_NOT yet_ 
+
 
 ### Usage
 
