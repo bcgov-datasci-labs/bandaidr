@@ -38,6 +38,14 @@ _NOT yet_
 
 ### Usage
 
+```{r, eval = FALSE}
+library(bomrang)
+bom <- get_satellite_imagery("IDE00420.201911080500.tif")
+
+band_label(bom)
+```
+
+
 #### Example
 
 This is a basic example which shows you how to solve a common problem:
