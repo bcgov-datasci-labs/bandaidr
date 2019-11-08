@@ -60,18 +60,33 @@ R-hackathon in Prince George*
 ### Usage
 
 ``` r
+
 library(bomrang)
 bom <- get_satellite_imagery("IDE00420.201911080500.tif")
 
 band_label(bom)
 ```
 
-#### Example
-
-This is a basic example which shows you how to solve a common problem:
+### Summarise Rasters by Satellite
 
 ``` r
-## basic example code
+library(bandaidr)
+summarize_imagery()
+#> Warning: Column `band_short`/`Name` joining character vector and factor,
+#> coercing into character vector
+#> # A tibble: 10 x 7
+#>    value        band_short Resolution Wavelength Description  Code  rasters
+#>    <chr>        <chr>      <fct>      <fct>      <fct>        <fct> <list> 
+#>  1 data/LE07_L~ B1         30 meters  0.45 - 0.~ Blue         B     <Rastr~
+#>  2 data/LE07_L~ B2         30 meters  0.52 - 0.~ Green        G     <Rastr~
+#>  3 data/LE07_L~ B3         30 meters  0.63 - 0.~ Red          R     <Rastr~
+#>  4 data/LE07_L~ B4         30 meters  0.77 - 0.~ Near infrar~ NIR   <Rastr~
+#>  5 data/LE07_L~ B5         30 meters  1.55 - 1.~ Shortwave i~ SWIR1 <Rastr~
+#>  6 data/LE07_L~ B6         <NA>       <NA>       <NA>         <NA>  <Rastr~
+#>  7 data/LE07_L~ B6         <NA>       <NA>       <NA>         <NA>  <Rastr~
+#>  8 data/LE07_L~ B7         30 meters  2.08 - 2.~ Shortwave i~ SWIR2 <Rastr~
+#>  9 data/LE07_L~ B8         15 meters  0.52 - 0.~ Panchromatic PAN   <Rastr~
+#> 10 data/LE07_L~ BQ         <NA>       <NA>       <NA>         <NA>  <Rastr~
 ```
 
 ### Project Status
