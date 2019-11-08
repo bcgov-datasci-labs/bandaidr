@@ -58,6 +58,7 @@ _resources and items to consider_
 ### Accounts needed
 - [USGS Landsat Registration](https://ers.cr.usgs.gov/register/)
   - this covers MODIS and Landsat data
+  
 - [Sentinel](https://scihub.copernicus.eu/dhus/)
 
 
