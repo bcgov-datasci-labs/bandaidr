@@ -1,14 +1,26 @@
 Package: bandaidr
-Title: What the Package Does (One Line, Title Case)
+Title: Rename Satellite Bands
 Version: 0.0.0.9000
 Authors@R: 
-    c(person(given = "First",
-             family = "Last",
+    c(person(given = "Sam",
+             family = "Albers",
              role = c("aut", "cre"),
-             email = "first.last@example.com"),
+             email = "sam.albers@bc.gov.ca"),
+          person(given = "Colin",
+             family = "Chisholm",
+             role = c("aut", "cre"),
+             email = "colin.chisholm@unbc.com"),
+          person(given = "Hunter",
+             family = "Gleason",
+             role = c("aut", "cre"),
+             email = "gleason.hunter@unbc.com"),
+          person(given = "Anshul",
+             family = "Dhankher",
+             role = c("aut", "cre"),
+             email = "anshul.dhankher@gov.bc.ca"),
       person(given = "Province of British Columbia",
              role = "cph"))
-Description: What the package does (one paragraph).
+Description: Rename the bands in saltellite imagery raster stacks.
 License: Apache License (== 2.0) | file LICENSE
 Encoding: UTF-8
 LazyData: true
