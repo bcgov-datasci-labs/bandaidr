@@ -55,7 +55,10 @@ R-hackathon in Prince George*
 
 ### Installation
 
-*NOT yet*
+``` r
+library(remotes)
+install_github("bcgov-datasci-labs/bandaidr")
+```
 
 ### Usage
 
