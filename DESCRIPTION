@@ -6,27 +6,31 @@ Authors@R:
              family = "Albers",
              role = c("aut", "cre"),
              email = "sam.albers@bc.gov.ca"),
-          person(given = "Colin",
+      person(given = "Colin",
              family = "Chisholm",
-             role = c("aut", "cre"),
+             role = "aut",
              email = "colin.chisholm@unbc.com"),
-          person(given = "Hunter",
+      person(given = "Hunter",
              family = "Gleason",
-             role = c("aut", "cre"),
+             role = "aut",
              email = "gleason.hunter@unbc.com"),
-          person(given = "Anshul",
+      person(given = "Anshul",
              family = "Dhankher",
-             role = c("aut", "cre"),
+             role = "aut",
              email = "anshul.dhankher@gov.bc.ca"),
       person(given = "Province of British Columbia",
              role = "cph"))
-Description: Rename the bands in saltellite imagery raster stacks.
+Description: Rename the bands in saltellite imagery raster
+    stacks.
 License: Apache License (== 2.0) | file LICENSE
+Imports:
+    raster
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: 
+    knitr
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
-Suggests: 
-    knitr,
-    rmarkdown
-VignetteBuilder: knitr

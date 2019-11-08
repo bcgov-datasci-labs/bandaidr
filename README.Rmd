@@ -31,7 +31,7 @@ _Initiated: Nov. 8, 2019 at the BC gov R-hackathon in Prince George_
   - look-up table of the bands
 3. Provide information about the bands.  This could be vignette-popups with a short description and links to further information.
 
-[Sentinel Bands (10m) ](https://sentinel.esa.int/image/image_gallery?uuid=c5fa6c3e-2978-4fb8-ac95-3be9c5171be2&groupId=247904&t=1345630320883)
+![Sentinel Bands (10m) ](https://sentinel.esa.int/image/image_gallery?uuid=c5fa6c3e-2978-4fb8-ac95-3be9c5171be2&groupId=247904&t=1345630320883)
 
 ### Resources for Group
 _resources and items to consider_
@@ -70,6 +70,14 @@ _NOT yet_
 
 
 ### Usage
+
+```{r, eval = FALSE}
+library(bomrang)
+bom <- get_satellite_imagery("IDE00420.201911080500.tif")
+
+band_label(bom)
+```
+
 
 #### Example
 

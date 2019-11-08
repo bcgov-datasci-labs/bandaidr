@@ -14,6 +14,7 @@ R-hackathon in Prince George*
 
 -   needs a function to get the data
 
+<<<<<<< HEAD
 1.  Name and Store the names of the bands (e.g. RGB, nIR, swir(?))
 
 -   add names
@@ -52,6 +53,13 @@ R-hackathon in Prince George*
 -   [USGS Landsat Registration](https://ers.cr.usgs.gov/register/)
     -   this covers MODIS and Landsat data
 -   [Sentinel](https://scihub.copernicus.eu/dhus/)
+=======
+1.  Name and Store the names of the bands (e.g. RGB, nIR, swril)
+
+-   add names
+-   satellites supported
+-   look-up table of the bands (Alex has one)
+>>>>>>> 244b2b1f7ed8b43e7943c2b1552f520fe829e55c
 
 ### Installation
 
@@ -59,6 +67,16 @@ R-hackathon in Prince George*
 
 ### Usage
 
+<<<<<<< HEAD
+=======
+``` r
+library(bomrang)
+bom <- get_satellite_imagery("IDE00420.201911080500.tif")
+
+band_label(bom)
+```
+
+>>>>>>> 244b2b1f7ed8b43e7943c2b1552f520fe829e55c
 #### Example
 
 This is a basic example which shows you how to solve a common problem:
@@ -69,8 +87,11 @@ This is a basic example which shows you how to solve a common problem:
 
 ### Project Status
 
+<<<<<<< HEAD
 Initiated
 
+=======
+>>>>>>> 244b2b1f7ed8b43e7943c2b1552f520fe829e55c
 ### Getting Help or Reporting an Issue
 
 To report bugs/issues/feature requests, please file an
