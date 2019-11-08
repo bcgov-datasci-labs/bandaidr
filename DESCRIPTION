@@ -24,7 +24,10 @@ Description: Rename the bands in saltellite imagery raster
     stacks.
 License: Apache License (== 2.0) | file LICENSE
 Imports:
-    raster
+    raster,
+    purrr,
+    tibble,
+    dplyr
 Suggests: 
     knitr,
     rmarkdown
